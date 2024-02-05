@@ -1,9 +1,8 @@
-﻿### DotnetCore template
+### DotnetCore template
 # .NET Core build folders
 bin/
 obj/
 
-/.idea
 # Common node modules locations
 /node_modules
 /wwwroot/node_modules
