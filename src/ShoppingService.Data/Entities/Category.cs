@@ -1,4 +1,4 @@
-﻿namespace ShoppingService.Entities;
+﻿namespace ShoppingService.Data.Entities;
 
 public class Category
 {

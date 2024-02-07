@@ -1,8 +1,8 @@
 ﻿using MassTransit;
 using Microsoft.EntityFrameworkCore;
-using ShoppingService.Entities;
+using ShoppingService.Data.Entities;
 
-namespace ShoppingService.Data;
+namespace ShoppingService.Data.Data;
 
 public class ShoppingDbContext : DbContext
 {

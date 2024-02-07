@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ShoppingService.Entities;
+namespace ShoppingService.Data.Entities;
 
 public class Item
 {
@@ -13,6 +13,8 @@ public class Item
     public bool IsDeleted { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
+    public Guid CreatedBy { get; set; }
+    public Guid? UpdatedBy { get; set; }
     
     // Relations
     public Guid CategoryId { get; set; }
